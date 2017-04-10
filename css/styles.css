@@ -2,4 +2,26 @@
 
 body {
     background: #12327b;
+    position: relative;
+    display: flex;
 }
+h1 {
+    text-align: center;
+    align-content: space-around;
+    margin: 0 auto;
+    font-family: futura;
+    font-weight: bold;
+    
+}
+
+.keys {
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 6em;
+    margin: 0 auto;
+    
+}
+
